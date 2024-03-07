@@ -24,18 +24,7 @@
                         <button type="submit" class="btn btn-success"> send</button>
                     </div>
                 </form>
-              <!--   <form action='server.php' method='POST'>
-                    <input type='hidden' id='deleteId' name='deleteId' value='<?php $row['id'];?>'>
-                    <button type='submit' class='btn btn-danger me-3'>X</button>
-                </form> -->
-               <!--  <form action='server.php' method='POST'>
-                    <input type='hidden' id='toggleId' name='toggleId' value='<?php $row['done'];?>'>
-                    <button type='submit' class='btn btn-success'>done</button>
-                </form> -->
-
-
             </div>
-
             <ul class="list-group mt-5 align-items-center">
                 <?php include 'get_data.php'; ?>
 
