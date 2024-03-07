@@ -17,7 +17,7 @@
 
             <div class="mx-auto d-flex flex-column align-items-center justify-content-center  col-12 col-md-3">
 
-                <form action="server.php" method="POST">
+                <form action="./server/server.php" method="POST">
                     <label for="newTodo">Inserisci un nuovo todo</label>
                     <div class="d-flex gap-3 align-items-center justify-content-center mt-4">
                         <input id="newTodo" name="newTodo" type="text" placeholder="scrivi un nuovo todo" class="form-control" />
@@ -25,10 +25,7 @@
                     </div>
                 </form>
             </div>
-            <ul class="list-group mt-5 align-items-center">
-                <?php include 'get_data.php'; ?>
-
-            </ul>
+         <?php include './components/print_data.php'; ?>
         </div>
     </div>
 
