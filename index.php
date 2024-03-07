@@ -15,7 +15,7 @@
     <?php include './partials/header.php'?>
     <div>
         <div class="container my-5">
-            <div class="mx-auto d-flex flex-column align-items-center justify-content-center  col-12 col-md-3">
+            <div class="mx-auto d-flex flex-column align-items-center justify-content-center col-12 col-md-3">
 
                 <form action="./server/server.php" method="POST">
                     <label for="newTodo">Inserisci un nuovo todo</label>

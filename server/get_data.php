@@ -17,7 +17,7 @@ $selectUserToDoResult = $connection->query($selectUserToDoQuery);
 if ($selectUserToDoResult && $selectUserToDoResult->num_rows > 0) {
     while ($row = $selectUserToDoResult->fetch_assoc()) {
         $todoTextClass = $row['done'] === '1' ? 'text-decoration-line-through' : '';
-        echo "<li class='list-group-item d-flex col-5 justify-content-between'>" .
+        echo "<li class='list-group-item d-flex col-12 col-md-8 col-lg-5 justify-content-between'>" .
             "<span class='cursor-pointer me-2 $todoTextClass'>" . $row["todo"] . "</span>" .
             "<div class='d-flex align-items-center'>" .
             "<form action='./server/server.php' method='POST'>" .

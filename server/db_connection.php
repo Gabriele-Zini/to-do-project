@@ -1,6 +1,8 @@
 <?php
 header("Access-Contol-Allow-Origin:*");
-session_start();
+ if(!isset($_SESSION)) {
+    session_start();
+} 
 
 $servername = "localhost:3306";
 $username = "root";
