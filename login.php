@@ -13,15 +13,15 @@
     <div class="container d-flex justify-content-center mt-5">
         <div class="col-12 col-md-8 col-lg-5">
             <div class="card">
-                <form action="" method="POST" class="d-flex w-75 flex-column p-3 mx-auto align-items-center justify-content-center">
+                <form action="./server/login_user.php" method="POST" class="d-flex w-75 flex-column p-3 mx-auto align-items-center justify-content-center">
                     <div class="mb-3 w-75">
                         <label class="form-label" for="username">username</label>
-                        <input class="form-control" type="text" id="" name="">
+                        <input class="form-control" type="text" id="username" name="username">
 
                     </div>
                     <div class="w-75">
                         <label class="form-label" for="username">password</label>
-                        <input class="form-control" type="password" id="" name="">
+                        <input class="form-control" type="password" id="password" name="password">
 
                     </div>
 
